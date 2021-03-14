@@ -12,7 +12,7 @@ It will also change frequently when I comment it, make some modifications, etc. 
 - MQTT configured in Home Assistant (https://www.home-assistant.io/integrations/mqtt/). The [autodiscovery](https://www.home-assistant.io/docs/mqtt/discovery/) must be enabled.
 - your MEROSS device must be connected to your local MQTT broker, not to the company cloud. How to do it is explained [here](https://github.com/bytespider/Meross/wiki/MQTT). 
 - you must know the unique ID of the Meross device. You retrieve it when connecting your device via @bytespider's utility, it will be similar to `2005280221783980814148e1e91d7af1`.
-- (optional) some understanding of Python is useful as nothing is click-n-go for now
+- (optional) some understanding of Python is useful ~~as nothing is click-n-go for now~~ (it is actually quite click-n-go now)
 - (optional) `git` if you want to update the code as it changes more easily
 
 ## Installation
