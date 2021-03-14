@@ -66,7 +66,7 @@ A first overview, a bettr description pointing to functions is on the way
 
 - power strips do not have the `0` channel available (in other words, you must switch all the entities). The main reason for that is that adding this channel would, during a restart of the script of HA, first toggle the main switch, and then correctly set all plugs. In practical terms, it means that your lamps that were off would first switch on, and then off during these restarts. I may improva that in the future
 
-- this is not related to meross-local-mqtt, but I noticed that sometimes the Meross strips, when they are online and connected to the MQTT broker, would not connect back if the broker is restarted. This seems not to happen with single plugs. It is probably a firmware problem and maybe related to https://github.com/albertogeniola/meross-homeassistant/issues/180 ? 
+- ~~this is not related to meross-local-mqtt, but I noticed that sometimes the Meross strips, when they are online and connected to the MQTT broker, would not connect back if the broker is restarted. This seems not to happen with single plugs. It is probably a firmware problem and maybe related to https://github.com/albertogeniola/meross-homeassistant/issues/180 ?~~ This is fortunately not true anymore if you use the latest version of @bytespider tool (see below)
 
 ## TODOs
 
