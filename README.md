@@ -1,3 +1,18 @@
+# ⚠ THERE IS A BETTER SOLUTION ⚠
+
+While my code is excellent :) there are times where one has to openly say that other do much, much better.
+
+Head to https://github.com/krahabb/meross_lan, @krahabb integration is fantastic.
+
+The code below works fine, but I will move to `meross_lan` myself for now so it will stay as it.
+
+One thing that I am missing is the ability to automatically remove stale entries, something I will do via `pyscript` (an post the code here when it is done)
+
+---
+
+---
+
+
 # Local MQTT management of MEROSS devices
 
 **WARNING:** This work in based on an afternoon of coding and experimenting to move my Meross devices from the company cloud to my own MQTT server.
